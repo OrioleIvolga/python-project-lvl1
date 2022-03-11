@@ -1,7 +1,7 @@
 install: # установка poetry
 	poetry install
 
-brain-games: # пока не знаю зачем, потом допишу
+brain-games: # запуск на выполнение файла brain_games.py
 	poetry run brain-games
         
 build: # сборка пакета с помощью poetry
