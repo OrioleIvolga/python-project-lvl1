@@ -8,10 +8,10 @@ on:
       - '**'
 
 jobs:
-  lint:
+  linter-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
-      - name: editor-lint
-        run: make lint
+      - name: Linter-check
+        run:
+          pip install poetry
+          make lint
