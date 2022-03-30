@@ -4,6 +4,9 @@ install: # установка poetry
 brain-games: # запуск на выполнение файла brain_games.py
 	poetry run brain-games
 
+brain-even: # запуск на выполнение файла brain_even.py
+	poetry run brain-even
+
 build: # сборка пакета с помощью poetry
 	poetry build
 
