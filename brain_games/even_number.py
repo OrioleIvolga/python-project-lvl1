@@ -8,7 +8,7 @@ def even_uneven(name):
     answer_right = 0
     while answer_right < 3:
         random_number = randint(1, 100)
-        print("Quection: " + str(random_number))
+        print("Question: " + str(random_number))
         answer = prompt.string("Your answer: ")
         if random_number % 2 == 0:
             correct_answer = "yes"
