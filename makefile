@@ -7,6 +7,9 @@ brain-games: # запуск на выполнение файла brain_games.py
 brain-even: # запуск на выполнение файла brain_even.py
 	poetry run brain-even
 
+brain-calc: # запуск на выполнение файла brain_calc.py
+	poetry run brain-calc
+
 build: # сборка пакета с помощью poetry
 	poetry build
 
