@@ -16,6 +16,9 @@ brain-gcd: # запуск на выполнение файла brain_gsd.py
 brain-progr: # запуск на выполнение файла brain_progression.py
 	poetry run brain-progression
 
+brain-prime: # запуск на выполнение файла brain_prime.py
+	poetry run brain-prime
+
 build: # сборка пакета с помощью poetry
 	poetry build
 
