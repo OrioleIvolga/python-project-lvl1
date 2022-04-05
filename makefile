@@ -13,6 +13,9 @@ brain-calc: # запуск на выполнение файла brain_calc.py
 brain-gcd: # запуск на выполнение файла brain_gsd.py
 	poetry run brain-gcd
 
+brain-progr: # запуск на выполнение файла brain_progression.py
+	poetry run brain-progression
+
 build: # сборка пакета с помощью poetry
 	poetry build
 

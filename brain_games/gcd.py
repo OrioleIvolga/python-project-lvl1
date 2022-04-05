@@ -5,7 +5,7 @@ from brain_games.welcome_guy import welcome_guy
 
 
 def gcd(name):
-    print("WFind the gratest common divisor of given numbers.")
+    print("Find the gratest common divisor of given numbers.")
     answer_right = 0
     while answer_right < 3:
         random_a = randint(1, 100)
