@@ -6,3 +6,5 @@
 [![EditorLint](https://github.com/OrioleIvolga/python-project-lvl1/actions/workflows/editor_lint.yml/badge.svg)](https://github.com/OrioleIvolga/python-project-lvl1/actions/workflows/editor_lint.yml)
 
 https://asciinema.org/a/6yPvdDlDzxHY5sNYOLIOAHhVF
+
+https://asciinema.org/a/cqEEYTRKeAhmsfjHg9mVWg0vr
