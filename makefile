@@ -10,6 +10,9 @@ brain-even: # запуск на выполнение файла brain_even.py
 brain-calc: # запуск на выполнение файла brain_calc.py
 	poetry run brain-calc
 
+brain-gcd: # запуск на выполнение файла brain_gsd.py
+	poetry run brain-gcd
+
 build: # сборка пакета с помощью poetry
 	poetry build
 
