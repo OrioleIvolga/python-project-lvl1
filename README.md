@@ -13,4 +13,4 @@
 
 [![Example of the game "progression"](https://asciinema.org/a/ABKsVPxws9gz7ptsbTOyk7MPb)](https://asciinema.org/a/ABKsVPxws9gz7ptsbTOyk7MPb)
 
-[![Example of the game "prime numder"](https://asciinema.org/a/7ABaizB6GoGxqU9YK0oxOBqTp)](https://asciinema.org/a/7ABaizB6GoGxqU9YK0oxOBqTp)
+[![Example of the game "prime number"](https://asciinema.org/a/7ABaizB6GoGxqU9YK0oxOBqTp)](https://asciinema.org/a/7ABaizB6GoGxqU9YK0oxOBqTp)
