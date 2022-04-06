@@ -15,7 +15,9 @@
 
 [![Example of the game "prime number"](https://asciinema.org/a/7ABaizB6GoGxqU9YK0oxOBqTp)](https://asciinema.org/a/7ABaizB6GoGxqU9YK0oxOBqTp)
 
+<p></p>
 <script id="asciicast-7ABaizB6GoGxqU9YK0oxOBqTp" src="https://asciinema.org/a/7ABaizB6GoGxqU9YK0oxOBqTp.js" async></script>
+<p></p>
  
 <script id="asciicast-ABKsVPxws9gz7ptsbTOyk7MPb" src="https://asciinema.org/a/ABKsVPxws9gz7ptsbTOyk7MPb.js" async></script>
  
