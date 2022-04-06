@@ -29,7 +29,7 @@ def is_prime(name):
             break
 
     if answer_right == 3:
-        print(f"Congratulation, {name}")
+        print(f"Congratulations, {name}")
 
 
 def main():
