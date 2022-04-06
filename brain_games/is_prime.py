@@ -24,7 +24,7 @@ def is_prime(name):
             print(
                 f"`{answer}` is wrong answer ;(."
                 f" Correct answer was `{correct_answer}`.\n"
-                f"Let`s try again, {name}!"
+                f"Let's try again, {name}!"
             )
             break
 
