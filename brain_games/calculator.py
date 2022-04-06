@@ -35,7 +35,7 @@ def calculator(name):
             break
 
     if answer_right == 3:
-        print(f"Congratulations, {name}")
+        print(f"Congratulations, {name}!")
 
 
 def main():
