@@ -15,12 +15,12 @@
 
 [![Example of the game "prime number"](https://asciinema.org/a/7ABaizB6GoGxqU9YK0oxOBqTp)](https://asciinema.org/a/7ABaizB6GoGxqU9YK0oxOBqTp)
 
+<a href="https://asciinema.org/a/6yPvdDlDzxHY5sNYOLIOAHhVF" target="_blank"><img src="https://asciinema.org/a/6yPvdDlDzxHY5sNYOLIOAHhVF.svg" /></a>
+ 
+<a href="https://asciinema.org/a/cqEEYTRKeAhmsfjHg9mVWg0vr" target="_blank"><img src="https://asciinema.org/a/cqEEYTRKeAhmsfjHg9mVWg0vr.svg" /></a>
+ 
+<a href="https://asciinema.org/a/6kJLCcW4bm3U7EhZuvunmPcT0" target="_blank"><img src="https://asciinema.org/a/6kJLCcW4bm3U7EhZuvunmPcT0.svg" /></a>
+ 
 <a href="https://asciinema.org/a/ABKsVPxws9gz7ptsbTOyk7MPb" target="_blank"><img src="https://asciinema.org/a/ABKsVPxws9gz7ptsbTOyk7MPb.svg" /></a>
  
-<script id="asciicast-ABKsVPxws9gz7ptsbTOyk7MPb" src="https://asciinema.org/a/ABKsVPxws9gz7ptsbTOyk7MPb.js" async></script>
- 
-<script id="asciicast-6kJLCcW4bm3U7EhZuvunmPcT0" src="https://asciinema.org/a/6kJLCcW4bm3U7EhZuvunmPcT0.js" async></script>
- 
-<script id="asciicast-cqEEYTRKeAhmsfjHg9mVWg0vr" src="https://asciinema.org/a/cqEEYTRKeAhmsfjHg9mVWg0vr.js" async></script>
- 
-<script id="asciicast-6yPvdDlDzxHY5sNYOLIOAHhVF" src="https://asciinema.org/a/6yPvdDlDzxHY5sNYOLIOAHhVF.js" async></script>
+<a href="https://asciinema.org/a/7ABaizB6GoGxqU9YK0oxOBqTp" target="_blank"><img src="https://asciinema.org/a/7ABaizB6GoGxqU9YK0oxOBqTp.svg" /></a>
