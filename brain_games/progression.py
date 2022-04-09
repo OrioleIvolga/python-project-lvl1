@@ -16,7 +16,8 @@ def progression(name):
         correct_answer = progr[index]
         progr_for_quest = progr
         progr_for_quest[index] = ".."
-        print(f"Question: {progr_for_quest}")
+        convert_progr_for_quest = ' '.join([str(a) for a in progr_for_quest])
+        print(f"Question: {convert_progr_for_quest}")
         answer = prompt.string("Your answer: ")
         if int(answer) == correct_answer:
             print("Correct!")
