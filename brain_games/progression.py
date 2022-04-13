@@ -10,7 +10,7 @@ def progression(name):
         progr_start = randint(1, 100)
         progr_step = randint(1, 10)
         progr_len = randint(5, 10)
-        progr_end = progr_start + (progr_len - 1) * progr_step
+        progr_end = progr_start + progr_len * progr_step
         progr = list(range(progr_start, progr_end, progr_step))
         index = randint(0, progr_len - 1)
         correct_answer = progr[index]
