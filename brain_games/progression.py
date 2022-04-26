@@ -1,9 +1,8 @@
 from random import randint
-import prompt
 from brain_games import engine
 
 
-def progression(name):
+def progression():
     print("What number is missing in progression?")
     progr_start = randint(1, 100)
     progr_step = randint(1, 10)
@@ -16,6 +15,7 @@ def progression(name):
     progr_for_quest = progr
     progr_for_quest[index] = ".."
     question = ' '.join([str(a) for a in progr_for_quest])
+    return (correct_answer, question)
 
 
 def main():
