@@ -22,7 +22,7 @@ def calculator():
         correct_answer = random_a * random_b
     else:
         print("Anknown simbol")
-    return (str(correct_answer), question)
+    return (question, str(correct_answer))
 
 
 def main():
