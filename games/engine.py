@@ -2,21 +2,21 @@ from brain_games.welcome_guy import welcome_guy
 import prompt
 
 
-general_greeting = "Welcome to the Brain Games!"
-output_correct_answ = "Correct!"
-congratulations = "Congratulations, "
+GENERAL_GREETING = "Welcome to the Brain Games!"
+OUTPUT_CORRECT_ANSWER = "Correct!" 
 
 
-def alg_game(function):
-    print(general_greeting)
+def alg_game(function, welcom_massage):
+    print(GENERAL_GREETING)
     name = welcome_guy()
+    print(welcom_massage)
     answer_right = 0
     while answer_right < 3:
-        correct_answer, question = function()
+        question, correct_answer = function()
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ")
         if answer == correct_answer:
-            print(output_correct_answ)
+            print(OUTPUT_CORRECT_ANSWER)
             answer_right += 1
         else:
             output_wrong_answ = (f"`{answer}` is wrong answer ;(."
@@ -26,7 +26,7 @@ def alg_game(function):
             break
 
     if answer_right == 3:
-        print(f"{congratulations}{name}!")
+        print("Congratulations, " + name + "!")
 
 
 def main():

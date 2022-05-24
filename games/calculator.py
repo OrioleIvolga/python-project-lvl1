@@ -1,23 +1,29 @@
 from random import randint
 from random import choice
-from brain_games import engine
+from games import engine
+
+
+WELCOME_MASSAGE = "What is the result of the expression?"
+START_RANDOM_RANGE = 1
+END_RANDOM_RANGE = 100
 
 
 def calculator():
-    print("What is the result of the expression?")
     operand = ["+", "-", "*"]
-    random_a = randint(1, 100)
-    random_b = randint(1, 100)
     random_operand = choice(operand)
+    random_a = randint(START_RANDOM_RANGE, END_RANDOM_RANGE)
+    random_b = randint(START_RANDOM_RANGE, END_RANDOM_RANGE)
     question = f"{random_a} {random_operand} {random_b}"
     if random_operand == "+":
         correct_answer = random_a + random_b
     elif random_operand == "-":
         correct_answer = random_a - random_b
-    else:
+    elif random_operand == "*":
         correct_answer = random_a * random_b
+    else:
+        print("Anknown simbol")
     return (str(correct_answer), question)
 
 
 def main():
-    engine.alg_game(calculator)
+    engine.alg_game(calculator, WELCOME_MASSAGE)

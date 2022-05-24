@@ -1,10 +1,11 @@
 from random import randint
 import math
-from brain_games import engine
+from games import engine
+
+WELCOME_MASSAGE = "Find the gratest common divisor of given numbers."
 
 
 def gcd():
-    print("Find the gratest common divisor of given numbers.")
     random_a = randint(1, 100)
     random_b = randint(1, 100)
     gcd = math.gcd(random_a, random_b)
@@ -14,4 +15,4 @@ def gcd():
 
 
 def main():
-    engine.alg_game(gcd)
+    engine.alg_game(gcd, WELCOME_MASSAGE)
