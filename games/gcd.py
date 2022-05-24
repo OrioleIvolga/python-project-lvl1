@@ -11,7 +11,7 @@ def gcd():
     gcd = math.gcd(random_a, random_b)
     question = str(random_a) + " " + str(random_b)
     correct_answer = str(gcd)
-    return (correct_answer, question)
+    return (question, correct_answer)
 
 
 def main():
