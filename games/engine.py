@@ -3,7 +3,7 @@ import prompt
 
 
 GENERAL_GREETING = "Welcome to the Brain Games!"
-OUTPUT_CORRECT_ANSWER = "Correct!" 
+OUTPUT_CORRECT_ANSWER = "Correct!"
 
 
 def alg_game(function, welcom_massage):

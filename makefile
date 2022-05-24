@@ -28,8 +28,5 @@ publish: # отладка публикации без добавления в Py
 package-install: # установка пакета из операционной системы
 	python3 -m pip install --user dist/*.whl
 
-# activate: #запуск вируального окружения, пока не настроен
-#	source ./.venv/bin/activate
-
 lint: #запуск линтера
 	poetry run flake8 brain_games

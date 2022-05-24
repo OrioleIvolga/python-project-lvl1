@@ -2,7 +2,8 @@ from random import randint
 from games import engine
 
 
-WELCOME_MASSAGE = "Answer `yes` if given number is prime. Otherwise answer `no`."
+WELCOME_MASSAGE = (f"Answer `yes` if given number is prime. "
+                   f"Otherwise answer `no`.")
 
 
 def is_prime():
