@@ -25,10 +25,10 @@ def generatingProgression():
     progr_start = randint(START_RANDOM_RANGE_FOR_PROGR_START,
                           END_RANDOM_RANGE_FOR_PROGR_START
                           )
-    progr_step = randint(START_RANDOM_RANGE_FOR_PROGR_STEP, 
+    progr_step = randint(START_RANDOM_RANGE_FOR_PROGR_STEP,
                          END_RANDOM_RANGE_FOR_PROGR_STEP
                          )
-    progr_len = randint(START_RANDOM_RANGE_FOR_PROGR_LEN, 
+    progr_len = randint(START_RANDOM_RANGE_FOR_PROGR_LEN,
                         END_RANDOM_RANGE_FOR_PROGR_LEN
                         )
     progr_end = progr_start + progr_len * progr_step
