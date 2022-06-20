@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 
-from games.calculator import main
+from brain_games.games.calculator import main
 
 
 if __name__ == "__main__":

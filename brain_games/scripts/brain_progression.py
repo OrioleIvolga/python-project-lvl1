@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 
-from games.progression import main
+from brain_games.games.progression import main
 
 
 if __name__ == "__main__":

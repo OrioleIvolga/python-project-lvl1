@@ -1,6 +1,5 @@
-from random import randint
-from random import choice
-from games import engine
+from random import randint, choice
+from brain_games import engine
 
 
 WELCOME_MASSAGE = "What is the result of the expression?"
@@ -21,7 +20,7 @@ def calculator():
     elif random_operand == "*":
         correct_answer = random_a * random_b
     else:
-        print("Anknown simbol")
+        print("Unknown simbol")
     return (question, str(correct_answer))
 
 

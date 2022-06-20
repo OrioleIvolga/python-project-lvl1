@@ -1,19 +1,19 @@
 from random import randint
-from games import engine
+from brain_games import engine
 
 
-WELCOME_MASSAGE = ("Answer `yes` if given number is prime. "
-                   + "Otherwise answer `no`.")
+WELCOME_MASSAGE = ("Answer `yes` if given number is prime."
+                   " Otherwise answer `no`.")
 
 
 def is_prime():
     random_number = randint(1, 100)
     question = str(random_number)
-    correct_answer = checkPrime(random_number)
+    correct_answer = check_prime(random_number)
     return(question, correct_answer)
 
 
-def checkPrime(random_number):
+def check_prime(random_number):
     divider_for_check = 2
     while random_number % divider_for_check != 0:
         divider_for_check += 1

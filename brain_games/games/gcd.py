@@ -1,6 +1,6 @@
 from random import randint
 import math
-from games import engine
+from brain_games import engine
 
 WELCOME_MASSAGE = "Find the gratest common divisor of given numbers."
 
