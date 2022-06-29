@@ -2,7 +2,7 @@ from random import randint, choice
 from brain_games import engine
 
 
-WELCOME_MASSAGE = "What is the result of the expression?"
+WELCOME_MESSAGE = "What is the result of the expression?"
 START_RANDOM_RANGE = 1
 END_RANDOM_RANGE = 100
 
@@ -25,4 +25,4 @@ def calculator():
 
 
 def main():
-    engine.alg_game(calculator, WELCOME_MASSAGE)
+    engine.alg_game(calculator, WELCOME_MESSAGE)

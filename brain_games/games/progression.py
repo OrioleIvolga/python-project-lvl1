@@ -1,7 +1,7 @@
 from random import randint
 from brain_games import engine
 
-WELCOME_MASSAGE = "What number is missing in progression?"
+WELCOME_MESSAGE = "What number is missing in progression?"
 START_RANDOM_RANGE_FOR_PROGRESSION_START = 1
 END_RANDOM_RANGE_FOR_PROGRESSION_START = 100
 START_RANDOM_RANGE_FOR_PROGRESSION_STEP = 1
@@ -41,4 +41,4 @@ def generate_progression():
 
 
 def main():
-    engine.alg_game(progression, WELCOME_MASSAGE)
+    engine.alg_game(progression, WELCOME_MESSAGE)

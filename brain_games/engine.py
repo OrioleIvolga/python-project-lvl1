@@ -3,16 +3,16 @@ import prompt
 
 GENERAL_GREETING = "Welcome to the Brain Games!"
 OUTPUT_CORRECT_ANSWER = "Correct!"
-MAX_ANSWER_RIGHT_COUNT = 3
+MAX_RIGHT_ANSWERS_COUNT = 3
 
 
 def alg_game(get_question_and_answer, welcome_message):
     print(GENERAL_GREETING)
     name = prompt.string("May I have your name? ")
-    print("Hello, " + name + "!")
+    print(f"Hello, `{name}`!")
     print(welcome_message)
     answer_right = 0
-    while answer_right < MAX_ANSWER_RIGHT_COUNT:
+    while answer_right < MAX_RIGHT_ANSWERS_COUNT:
         question, correct_answer = get_question_and_answer()
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ")
