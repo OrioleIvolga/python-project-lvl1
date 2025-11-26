@@ -11,11 +11,11 @@ END_RANDOM_RANGE_FOR_PROGRESSION_LEN = 10
 
 
 def progression():
-    progression, progression_len = generate_progression()
-    index = randint(0, progression_len - 1)
+    progression = generate_progression()
+    index = randint(0, len(progression) - 1)
     correct_answer = progression[index]
     correct_answer = str(correct_answer)
-    progression_for_quest = progression
+    progression_for_quest = progression.copy()
     progression_for_quest[index] = ".."
     question = ' '.join([str(a) for a in progression_for_quest])
     return (question, correct_answer)
@@ -37,8 +37,8 @@ def generate_progression():
                              progression_step
                              )
                        )
-    return (progression, progression_len)
+    return progression
 
 
 def main():
-    engine.alg_game(progression, WELCOME_MESSAGE)
+    engine.play_game(progression, WELCOME_MESSAGE)

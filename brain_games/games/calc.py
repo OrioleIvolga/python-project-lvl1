@@ -25,4 +25,4 @@ def calculator():
 
 
 def main():
-    engine.alg_game(calculator, WELCOME_MESSAGE)
+    engine.play_game(calculator, WELCOME_MESSAGE)

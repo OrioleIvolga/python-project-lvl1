@@ -17,4 +17,4 @@ def check_even(random_number):
 
 
 def main():
-    engine.alg_game(even_uneven, WELCOME_MESSAGE)
+    engine.play_game(even_uneven, WELCOME_MESSAGE)

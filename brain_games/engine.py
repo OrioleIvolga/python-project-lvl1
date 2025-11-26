@@ -1,15 +1,13 @@
+from brain_games.cli import welcome_user
 import prompt
 
 
-GENERAL_GREETING = "Welcome to the Brain Games!"
 OUTPUT_CORRECT_ANSWER = "Correct!"
 MAX_RIGHT_ANSWERS_COUNT = 3
 
 
-def alg_game(get_question_and_answer, welcome_message):
-    print(GENERAL_GREETING)
-    name = prompt.string("May I have your name? ")
-    print(f"Hello, `{name}`!")
+def play_game(get_question_and_answer, welcome_message):
+    name = welcome_user()
     print(welcome_message)
     answer_right = 0
     while answer_right < MAX_RIGHT_ANSWERS_COUNT:
@@ -24,7 +22,7 @@ def alg_game(get_question_and_answer, welcome_message):
                                    f" Correct answer was `{correct_answer}`.\n"
                                    f"Let's try again, {name}!")
             print(output_wrong_answer)
-            break
+            return
 
     if answer_right == 3:
         print(f"Congratulations, {name}!")

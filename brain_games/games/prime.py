@@ -6,7 +6,7 @@ WELCOME_MESSAGE = ("Answer `yes` if given number is prime."
                    " Otherwise answer `no`.")
 
 
-def is_prime():
+def prime_game():
     random_number = randint(1, 100)
     question = str(random_number)
     correct_answer = "yes" if check_prime(random_number) else "no"
@@ -21,4 +21,4 @@ def check_prime(random_number):
 
 
 def main():
-    engine.alg_game(is_prime, WELCOME_MESSAGE)
+    engine.play_game(prime_game, WELCOME_MESSAGE)

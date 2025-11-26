@@ -15,4 +15,4 @@ def gcd():
 
 
 def main():
-    engine.alg_game(gcd, WELCOME_MESSAGE)
+    engine.play_game(gcd, WELCOME_MESSAGE)
