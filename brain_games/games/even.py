@@ -11,7 +11,7 @@ def even_uneven():
     random_number = randint(1, 100)
     question = str(random_number)
     correct_answer = "yes" if check_even(random_number) else "no"
-    return(question, correct_answer)
+    return (question, correct_answer)
 
 
 def check_even(random_number):

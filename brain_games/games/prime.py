@@ -11,7 +11,7 @@ def prime_game():
     random_number = randint(1, 100)
     question = str(random_number)
     correct_answer = "yes" if check_prime(random_number) else "no"
-    return(question, correct_answer)
+    return (question, correct_answer)
 
 
 def check_prime(random_number):
