@@ -2,7 +2,9 @@ from random import randint
 from brain_games import engine
 
 
-WELCOME_MESSAGE = 'Answer "yes" if the number is even, otherwise answer "no".'
+WELCOME_MESSAGE = (
+    'Answer "yes" if the number is even, otherwise answer "no".'
+)
 
 
 def even_uneven():

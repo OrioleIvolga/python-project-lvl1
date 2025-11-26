@@ -2,8 +2,9 @@ from random import randint
 from brain_games import engine
 
 
-WELCOME_MESSAGE = ('Answer "yes" if given number is prime. '
-                   'Otherwise answer "no".')
+WELCOME_MESSAGE = (
+    'Answer "yes" if given number is prime. Otherwise answer "no".'
+)
 
 
 def prime_game():
