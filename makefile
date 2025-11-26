@@ -29,4 +29,4 @@ package-install: # установка пакета из операционной
 	python3 -m pip install --user dist/*.whl
 
 lint: #запуск линтера
-	poetry run flake8 brain_games
+	poetry run flake8 brain_games/
