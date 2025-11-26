@@ -2,7 +2,7 @@ from random import randint
 import math
 from brain_games import engine
 
-WELCOME_MESSAGE = "Find the gratest common divisor of given numbers."
+WELCOME_MESSAGE = "Find the greatest common divisor of given numbers."
 
 
 def gcd():
