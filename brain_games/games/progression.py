@@ -30,4 +30,7 @@ def generate_progression():
     progression_len = randint(START_RANDOM_RANGE_FOR_PROGRESSION_LEN,
                               END_RANDOM_RANGE_FOR_PROGRESSION_LEN
                               )
-    return [progression_start + i * progression_step for i in range(progression_len)]
+    return [
+        progression_start + i * progression_step
+        for i in range(progression_len)
+    ]

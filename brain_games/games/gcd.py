@@ -9,6 +9,7 @@ def gcd(a, b):
         a, b = b, a % b
     return a
 
+
 def generate_gcd_question():
     random_a = randint(1, 100)
     random_b = randint(1, 100)

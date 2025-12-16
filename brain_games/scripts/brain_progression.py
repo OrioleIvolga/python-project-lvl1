@@ -7,6 +7,7 @@ from brain_games.games.progression import (
     WELCOME_MESSAGE,
 )
 
+
 def main():
     engine.play_game(generate_progression_question, WELCOME_MESSAGE)
 
