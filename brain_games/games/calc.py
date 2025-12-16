@@ -1,5 +1,4 @@
 from random import randint, choice
-from brain_games import engine
 
 
 WELCOME_MESSAGE = "What is the result of the expression?"
@@ -7,7 +6,7 @@ START_RANDOM_RANGE = 1
 END_RANDOM_RANGE = 100
 
 
-def calculator():
+def generate_question_and_answer():
     operand = ["+", "-", "*"]
     random_operand = choice(operand)
     random_a = randint(START_RANDOM_RANGE, END_RANDOM_RANGE)
@@ -20,9 +19,8 @@ def calculator():
     elif random_operand == "*":
         correct_answer = random_a * random_b
     else:
-        print("Unknown simbol")
+        raise RuntimeError(
+            f"Неподдерживаемый оператор: '{random_operand}'. "
+            "Ожидаются: +, -, *."
+        )
     return (question, str(correct_answer))
-
-
-def main():
-    engine.play_game(calculator, WELCOME_MESSAGE)

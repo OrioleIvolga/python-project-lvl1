@@ -1,5 +1,4 @@
 from random import randint
-from brain_games import engine
 
 
 WELCOME_MESSAGE = (
@@ -7,19 +6,23 @@ WELCOME_MESSAGE = (
 )
 
 
-def prime_game():
+def is_prime(random_number):
+    if random_number < 2:
+        return False
+    if random_number == 2:
+        return True
+    if random_number % 2 == 0:
+        return False
+    i = 3
+    while i * i <= random_number:
+        if random_number % i == 0:
+            return False
+        i += 2
+    return True
+
+
+def generate_prime_question():
     random_number = randint(1, 100)
     question = str(random_number)
-    correct_answer = "yes" if check_prime(random_number) else "no"
-    return (question, correct_answer)
-
-
-def check_prime(random_number):
-    divider_for_check = 2
-    while random_number % divider_for_check != 0:
-        divider_for_check += 1
-    return random_number == divider_for_check
-
-
-def main():
-    engine.play_game(prime_game, WELCOME_MESSAGE)
+    correct_answer = "yes" if is_prime(random_number) else "no"
+    return question, correct_answer

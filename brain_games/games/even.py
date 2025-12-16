@@ -1,5 +1,4 @@
 from random import randint
-from brain_games import engine
 
 
 WELCOME_MESSAGE = (
@@ -7,16 +6,12 @@ WELCOME_MESSAGE = (
 )
 
 
-def even_uneven():
+def generate_even_question():
     random_number = randint(1, 100)
     question = str(random_number)
-    correct_answer = "yes" if check_even(random_number) else "no"
+    correct_answer = "yes" if is_even(random_number) else "no"
     return (question, correct_answer)
 
 
-def check_even(random_number):
+def is_even(random_number):
     return random_number % 2 == 0
-
-
-def main():
-    engine.play_game(even_uneven, WELCOME_MESSAGE)
